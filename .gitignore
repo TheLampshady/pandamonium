@@ -1,0 +1,10 @@
+*~
+*.pyc
+*.DS_Store
+.idea
+*.pem
+*.p12
+*.datastore
+*.zip
+*.sqlite
+*.csv
