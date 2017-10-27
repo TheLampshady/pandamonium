@@ -1,6 +1,4 @@
 import argparse
-import os.path
-import csv
 import pandas as pd
 
 parser = argparse.ArgumentParser(description='Process some integers.')
@@ -10,6 +8,11 @@ parser.add_argument('-f', '--file', dest='filename',
 args = parser.parse_args()
 
 OUTFILE ="twg_data.csv"
+
+file1 = "categories.csv"
+file2 = "near.csv"
+file3 = "questions.csv"
+file4 = "wheretobuy.csv"
 
 
 def run(filename):
